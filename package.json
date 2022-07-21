@@ -1,0 +1,23 @@
+{
+  "name": "sprint_2_maq_web_bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0410L/SPRINT_2_MAQ_WEB_BOOTSTRAP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0410L/SPRINT_2_MAQ_WEB_BOOTSTRAP/issues"
+  },
+  "homepage": "https://github.com/0410L/SPRINT_2_MAQ_WEB_BOOTSTRAP#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
