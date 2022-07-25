@@ -13,40 +13,27 @@
 </head>
 <body>
   <header>
-
-  <nav class="">
-    <div class="row menuContainer">
-      <div class="col-8">
-        <img class="logo" src="./assets/Imagenes/logo-bookmark.svg" alt="Bookmark">
-      </div>
-      <div class="col-4">
-        <div class="row botonera">
-          <div class="col-3 btn">
-            <a href="">FEATURES</a>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <img class="logo" src="./assets/Imagenes/logo-bookmark.svg" alt="Bookmark">
+      <button class="navbar-toggler bg-white collapsed" data-toggle="collapse" data-target="#lista" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="lista"></div>
+           <div class="navbar-nav">
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="login">Login</a>
         </div>
-          <div class="col-3 btn">
-            <a href="">PRICING</a>
-          </div>
-          <div class="col-3 btn">
-            <a href="">CONTACT</a>
-          </div>
-          <div class="col-3 btn activo">
-            <a href="">LOGIN</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-  
-</header>
-
+    </div>
+  </nav>
   <main class="container">
     <div class="row flex-row-reverse">
-      <div class="col-md-7 text-center">
+      <div class="col-md-6 text-center">
         <img src="./assets/Imagenes/illustration-hero.svg" alt="pantalla1" width="">
-        <div class="ormaazul">
-        </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-6">
         <h1>A Simple Bookmark<br>Manager</h1>
         <br>
         <p>A clean ans simple interface to organize your favorite websites. Open a new browser tab and see your sites load instatly. Try it for free.</p>
@@ -55,8 +42,14 @@
         <button class="btn btn-light">Get it on Firefox</button>
       </div>
     </div>
-  </main>
+  </header>
 
+
+
+
+
+
+  </main>
 <footer>
 
 </footer>
