@@ -1,13 +1,25 @@
+.img{
+    z-index: 1;
+    position: relative;
+}
+
+.col-12{
+    text-align:center;
+    justify-content: center;
+}
 
 .formaazul{
     border-radius: 0px 0px 0px 193px;
     background: #5080E5;
-    z-index: -1;
     position: relative;
-    top: -318px;
+    z-index: -1;
+    top: -300px;
     left: 192px;
-    width: auto;
     height: 325px;
+}
+
+.seccionfeatures{
+    position: absolute;
 }
 
 .menuContainer{
@@ -21,7 +33,7 @@
     text-decoration: none;
     text-align: center;    
     font-weight: 500;
-    justify-content: center;
+    justify-content: flex-end;
 
 }
 .botonera *:hover{
@@ -63,6 +75,16 @@ header{
         padding-left: 20px;    
     }
 
+    .simplebookmark{
+        text-align:center;
+        justify-content: center;
+    }
+
+    .container{
+        justify-content: center;
+        text-align:center;
+    }
+    
     
 }
 nav{
