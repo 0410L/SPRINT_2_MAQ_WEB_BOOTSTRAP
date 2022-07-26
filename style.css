@@ -3,20 +3,29 @@
     position: relative;
 }
 
-.col-12{
-    text-align:center;
-    justify-content: center;
-}
-
 .formaazul{
     border-radius: 0px 0px 0px 193px;
     background: #5080E5;
-    position: relative;
-    z-index: -1;
-    top: -300px;
+    position: absolute;
+    bottom: 10px;
     left: 192px;
+    z-index: -1;
     height: 325px;
+    width: 100%;
+
 }
+
+.formaazul2{
+    border-radius: 0px 0px 193px 0px;
+    background: #5080E5;
+    position: absolute;
+    bottom: -60px;
+    left: -130px;
+    z-index: -1;
+    height: 325px;
+    width: 100%;
+}
+
 
 .seccionfeatures{
     position: absolute;
@@ -68,11 +77,12 @@ header{
 }
 
 @media(max-width:992px){
-    .navbar-nav{
+    .navbar{
         background-color: #5080E5;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;    
-        padding-left: 20px;    
+        padding-left: 20px;
+        opacity: 0%;    
     }
 
     .simplebookmark{
