@@ -1,3 +1,7 @@
+.nav-item{
+    text-decoration: none;
+}
+
 
 .img{
     z-index: 1;
@@ -21,7 +25,7 @@
     background: #5080E5;
     position: absolute;
     bottom: -60px;
-    left: -130px;
+    left: -180px;
     z-index: -1;
     height: 325px;
     width: 100%;
