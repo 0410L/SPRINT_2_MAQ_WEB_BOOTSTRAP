@@ -1,3 +1,4 @@
+
 .img{
     z-index: 1;
     position: relative;
@@ -78,11 +79,7 @@ header{
 
 @media(max-width:992px){
     .navbar{
-        background-color: #5080E5;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;    
-        padding-left: 20px;
-        opacity: 0%;    
+
     }
 
     .simplebookmark{
@@ -100,3 +97,5 @@ header{
 nav{
     z-index: 100;
 }
+
+
