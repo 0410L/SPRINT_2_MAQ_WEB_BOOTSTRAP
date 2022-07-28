@@ -16,7 +16,8 @@
     left: 192px;
     z-index: -1;
     height: 325px;
-    width: 100%;
+    width: 86%;
+    display: block;
 
 }
 
@@ -28,13 +29,16 @@
     left: -180px;
     z-index: -1;
     height: 325px;
-    width: 100%;
+    width: 90%;
+    display: block;
 }
 
 
 .seccionfeatures{
     position: absolute;
 }
+
+
 
 .menuContainer{
     margin-left: 11.4%;
@@ -55,6 +59,10 @@
     text-decoration: none;
 }
 
+a.nav-link:hover {
+    color: red;
+}
+
 div.activo{
     background-color: rgb(218, 75, 75);
     
@@ -68,7 +76,7 @@ div.activo:hover a{
 }
 .logo{
     width: 150px;
-    
+   
 }
 
 header{
@@ -81,21 +89,48 @@ header{
     position: absolute;
 }
 
+
+.card-body {
+    margin-left: 11.4%;
+    margin-right: 11.4%;
+    align-items: center;
+}
+
+.extensioncard {
+    text-align: center;
+    justify-content: center;
+}
+
+.card1{
+    border-radius: 50px 50px 50px 50px;
+   
+}
+
+.card2{
+    border-radius: 50px 50px 50px 50px;
+
+}
+
+.card3{
+    border-radius: 50px 50px 50px 50px;
+ 
+}
+
+.accordion-button:hover {
+    color: red;
+}
+
 @media(max-width:992px){
-    .navbar{
-
-    }
-
-    .simplebookmark{
-        text-align:center;
-        justify-content: center;
-    }
-
+    
     .container{
+        text-align: center;
         justify-content: center;
-        text-align:center;
+
     }
     
+
+
+   
     
 }
 nav{
