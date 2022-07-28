@@ -1,3 +1,9 @@
+
+.body{
+    justify-content: center;
+}
+
+
 .nav-item{
     text-decoration: none;
 }
@@ -103,7 +109,7 @@ header{
 
 .card1{
     border-radius: 50px 50px 50px 50px;
-   
+    
 }
 
 .card2{
@@ -128,10 +134,6 @@ header{
 
     }
 
-    .extensioncard {
-        margin-top: 0;
-    }
-    
     
 }
 nav{
