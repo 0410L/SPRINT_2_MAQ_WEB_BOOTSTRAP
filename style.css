@@ -127,10 +127,11 @@ header{
         justify-content: center;
 
     }
+
+    .extensioncard {
+        margin-top: 0;
+    }
     
-
-
-   
     
 }
 nav{
