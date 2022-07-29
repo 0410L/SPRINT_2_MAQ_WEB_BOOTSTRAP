@@ -14,31 +14,6 @@
     position: relative;
 }
 
-.formaazul{
-    border-radius: 0px 0px 0px 193px;
-    background: #5080E5;
-    position: absolute;
-    bottom: 10px;
-    left: 192px;
-    z-index: -1;
-    height: 325px;
-    width: 86%;
-    display: block;
-
-}
-
-.formaazul2{
-    border-radius: 0px 0px 193px 0px;
-    background: #5080E5;
-    position: absolute;
-    bottom: -60px;
-    left: -180px;
-    z-index: -1;
-    height: 325px;
-    width: 90%;
-    display: block;
-}
-
 
 .seccionfeatures{
     position: absolute;
@@ -47,8 +22,8 @@
 
 
 .menuContainer{
-    margin-left: 11.4%;
-    margin-right: 11.4%;
+    margin-left: 0;
+    margin-right: 0;
     align-items: center;
 }
 
@@ -96,6 +71,7 @@ header{
 }
 
 
+
 .card-body {
     margin-left: 11.4%;
     margin-right: 11.4%;
@@ -109,18 +85,32 @@ header{
 
 .card1{
     border-radius: 50px 50px 50px 50px;
+    position: relative;
+    top: -30px;
+    margin: 5px;
     
 }
 
 .card2{
     border-radius: 50px 50px 50px 50px;
+    position: relative;
+    top: 0px;
+    margin: 5px;
 
 }
 
 .card3{
     border-radius: 50px 50px 50px 50px;
+    position: relative;
+    top: 30px;
+    margin: 5px;
  
 }
+
+.forma-features {
+    width: 84%;
+    height: 80%;
+  }
 
 .accordion-button:hover {
     color: red;

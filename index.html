@@ -39,7 +39,7 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex">
+          <form class="d-flex justify-content-end">
             <button class="btn" type="submit">FEATURES</button>
             <button class="btn" type="submit">PRICING</button>
             <button class="btn" type="submit">CONTACT</button>
@@ -57,15 +57,15 @@
       <div class="col-lg-6 order-2 order-lg-1 text-lg-left align-center">
         <h1 class="simplebookmark mt-5">A Simple Bookmark<br>Manager</h1>
         <br>
-        <h6 class="h6">A clean ans simple interface to organize your favorite websites.
-          Open a new browser tab and see your sites load instatly. Try it for free.</h6>
-          <br>
+        <h6 class="h6 text-black-50">A clean ans simple interface to organize your favorite websites. Open a new browser tab and see your sites load instatly. Try it for free.</h6>
+        <br>
         <button class="btn btn-primary">Get it on Chrome</button>
         <button class="btn btn-light">Get it on Firefox</button>
       </div>
+      
       <div class="col-lg-6 order-1 order-lg-2 align-self-center position-relative max-width-auto">
-        <img src="./assets/Imagenes/illustration-hero.svg" alt="img" width="100%"></img>
-        <div class="formaazul"></div>
+        <img src="./assets/Imagenes/illustration-hero.svg"  style="z-index: 3" alt="The simple Bookmark Manager landing page" class="img-fluid pb-4 position-relative"></img>
+        <div class="bg-primary position-absolute bottom-0 end-0 w-75 h-75 rounded-pill rounded-end img-fluid" style="z-index: 1;"></div>
       </div>
     </div>
   </div>
@@ -77,7 +77,7 @@
         <div class="col-12 justify-content-center align-center text-center">
           <h1>Features</h1>
           <br>
-          <h6 class="h6">Our aim is to make it quick and easy for you to acces your
+          <h6 class="h6 text-black-50">Our aim is to make it quick and easy for you to acces your
               favourite websites.<p>Your bookmarks sync between your devices so you can access them on the go.</h6>
           <br>
       </div>      
@@ -92,20 +92,20 @@
       <li class="nav-item"><a class="nav-link enabled" data-bs-toggle="tab" href="#tab3">Easy Sharing</a></li>
     </ul>
 <div class="tab-content">
-  <div class="tab-pane active" id="simplebookmarking">
+  <div class="tab-pane fade show active" id="simplebookmarking" role="pabpanel">
     <div class="row">
       <div class="col align-self-center position-relative">
         <div class="tab1 container mt-5 pt-3 p-1 mb-5">
           <div class="row justify-content-center">
             <div class="col-lg-6 order-1 order-lg-1 align-self-center position-relative mb-5">
-              <img src="./assets/Imagenes/illustration-features-tab-1.svg" alt="img" width="80%">
-                <div class="formaazul2"></div>
+              <img src="./assets/Imagenes/illustration-features-tab-1.svg" class="img-fluid position-relative pb-5 pb-lg-8 px-4 pe-md-5 pe-lg-0" style="z-index: 2;">
+              <div class="bg-primary rounded-pill rounded-start position-absolute bottom-0 start-0 forma-features" style="z-index: 1;"></div>
               </img>
             </div>
             <div class="col-lg-6 order-2 order-lg-2 text-lg-left align-center">
               <h1 class="simplebookmark mt-5">Bookmark in one click</h1>
               <br>
-              <h6 class="h6">Organize your bookmarks however you like.
+              <h6 class="h6 text-black-50">Organize your bookmarks however you like.
                 Our simple drag-and-drop interface gives you complete
                 control over how you manage you favorite sites.</h6>
                 <br>
@@ -120,36 +120,45 @@
 
 <!--Secció Àrea de descàrregues-->
 
-<div class="row justify-content-center mt-5 pt-3 pb-1 mb-2 ">
-  <div class="col-lg-6 text-center me-5 ms-5 mt-4 ">
+<div class="row justify-content-center">
+  <div class="col-lg-6 text-center m-5">
       <h1>Download the extension</h1>
       <br>
-      <h6 class="h6">We've got more browsers in the pipeline. Please do let us know if
+      <h6 class="h6 text-black-50">We've got more browsers in the pipeline. Please do let us know if
           <br>you've got a favourite you'd like us to prioritize.
       </h6>
   </div>
 </div>
 </div>
 <div class="extensioncard container">
-  <div class="row justify-content-center m-1 p-2">
-    <div class="card1 col-lg-4 order-1 order-lg-1 text-lg-left align-self-start bg-white shadow mt-1" >
+  <div class="row justify-content-center">
+    <div class="card1 col-lg-3 order-1 order-lg-1 text-lg-left align-self-start bg-white shadow" >
       <img src="./assets/Imagenes/logo-chrome.svg" alt="img" width="30%" class="h-25 m-4 pt-4">
       <h4 class="card-title mt-2">Add to Chrome</h4>
-      <h6 class="card-text">Minimum version 62</h6>
+      <p></p>
+      <h6 class="card-text text-black-50">Minimum version 62</h6>
+      <img src="./assets/Imagenes/bg-dots.svg" alt="" class="mt-2 pt-4" width="90%">
+      <p></p>
       <a href="#" class="m-4 btn btn-primary">Add & Install Extension</a>
     </div>
     <br>
-    <div class="card2 col-lg-4 order-2 order-lg-2 text-lg-left align-self-center bg-white shadow mt-3">
+    <div class="card2 col-lg-3 order-2 order-lg-2 text-lg-left align-self-center bg-white shadow">
       <img src="./assets/Imagenes/logo-firefox.svg" alt="img" width="30%" class="h-25 m-4 pt-4">
       <h4 class="card-title mt-2">Add to Chrome</h4>
-      <h6 class="card-text">Minimum version 62</h6>
+      <p></p>
+      <h6 class="card-text text-black-50">Minimum version 62</h6>
+      <img src="./assets/Imagenes/bg-dots.svg" alt="" class="align-self-center mt-2 pt-4" width="90%">
+      <p></p>
       <a href="#" class="m-4 btn btn-primary">Add & Install Extension</a>
     </div>
     <br>
-    <div class="card3 col-lg-4 order-3 order-lg-3 text-lg-left align-self-end bg-white shadow mt-5">
+    <div class="card3 col-lg-3 order-3 order-lg-3 text-lg-left align-self-end bg-white shadow">
       <img src="./assets/Imagenes/logo-opera.svg" alt="img" width="30%" class="h-25 m-4 pt-4">
       <h4 class="card-title mt-2">Add to Chrome</h4>
-      <h6 class="card-text">Minimum version 62</h6>
+      <p></p>
+      <h6 class="card-text text-black-50">Minimum version 62</h6>
+      <img src="./assets/Imagenes/bg-dots.svg" alt="" class="align-self-center mt-2 pt-4" width="90%">
+      <p></p>
       <a href="#" class="m-4 btn btn-primary">Add & Install Extension</a>
     </div>
   </div>
@@ -161,7 +170,7 @@
   <div class="col-12 col-lg-7 text-center">
       <h1 class="mt-5">Frequently Asked Questions</h1>
       <br>
-      <h6 class="h6 ">Here are some of our FAQs. If you have any other questions
+      <h6 class="h6 text-black-50">Here are some of our FAQs. If you have any other questions
           <br class="d-none d-lg-inline "> you'd like answered please feel free to email us. <br class="d-none d-lg-inline ">
       </h6>
       <br>
@@ -222,14 +231,13 @@
 </div>
   <br>
 </div>
-</body>
 
 
 <!--Footer forms Overview-->
 
 <footer>
   <div class="container-fluid justify-content-center bg-primary pt-4">
-    <h4 class="text-center align-center p-3 text-white"> 35.000 Already Joined</h4>
+    <h6 class="text-center align-center p-2 text-white"> 35.000 Already Joined</h6>
     <h3 class="text-center align-center p-2 text-white">Stay up-to-date with what we're doing</h3><br>
     <div class="container">
       <div class="container-fluid col-12 col-lg-7 justify-content-center">
@@ -249,27 +257,28 @@
       </div>
     </div>
   </div>
-  <ul class="nav bg-dark justify-content-center align-center">
-    <li class="nav-item align-self-center">
-      <img class="logo" src="./assets/Imagenes/logo-bookmark-white.svg" alt="Bookmark">
-    </li>
-    <br>
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Features</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Pricing</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
-    </li>
-    <li class="nav-item">
-      <ion-icon name="logo-facebook"></ion-icon></a>
-    </li>
-    <li class="nav-item">
-      <ion-icon name="logo-twitter"></ion-icon>"></a>
-    </li>
-  </ul>
+  <div class="col-12 text-center bg-dark px-4 px-md-8">    
+    <ul class="nav flex-column flex-md-row py-3">
+        <li class="nav-item">
+              <a href="#"><img src="./assets/Imagenes/logo-bookmark-white.svg" width="130px" height="" class="align-text justify-content-center pt-2 me-4"></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="#features"><small class="text-uppercase pe-2">Features</small></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="#"><small class="text-uppercase px-2">Pricing</small></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="#contact"><small class="text-uppercase px-2">Contact</small></a>
+        </li>
+        <li class="nav-item ms-md-auto mb-4 my-md-0 pt-md-1">
+            <a href="#"><img src="./assets/Imagenes/fb-white.png" width="24" height="24"><path fill-rule="evenodd"></a>
+            <a href="#"><img src="./assets/Imagenes/icon-twitter.svg" width="24" height="24"><path fill-rule="evenodd"></a>
+        </li>
+    </ul> 
 </div>
 </footer>
+</div>
+</footer>
+</body>
 </html>
