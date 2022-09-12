@@ -116,6 +116,10 @@ header{
     color: red;
 }
 
+.row {
+    --bs-gutter-x:0.0
+}
+
 @media(max-width:992px){
     
     .container{
